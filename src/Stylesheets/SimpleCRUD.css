@@ -1,0 +1,137 @@
+
+.create-heading {
+    color: rgba(0, 0, 255, 0.726);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.create-new-car-form {
+    background-color: rgba(211, 211, 211, 0.842);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.create-new-car-form:hover {
+
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-btn {
+    background-color: rgba(0, 0, 255, 0.726);
+    border-color: rgba(0, 0, 255, 0.726);
+    color: antiquewhite;
+    padding: 10px 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.sign-up-btn:hover {
+    background-color: black;
+    border-color: black;
+
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+
+}
+
+.input-fields {
+    height: 35px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Register-btn {
+    background-color: rgba(0, 0, 255, 0.726);
+    border-color: rgba(0, 0, 255, 0.726);
+    color: antiquewhite;
+    padding: 10px 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Register-btn:hover {
+    background-color: black;
+    border-color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}
+
+.input-fields {
+    height: 35px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Car-list-table {
+    font-family: Arial, sans-serif;
+    border: 1px solid rgba(0, 0, 255, 0.726);
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.Car-list-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Car-list-table th,
+.Car-list-table td {
+    border: 1px solid rgba(0, 0, 255, 0.726);
+    text-align: left;
+    padding: 8px;
+}
+
+.Car-list-table th {
+    background-color: rgba(0, 0, 255, 0.726);
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Car-list-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Car-list-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.list-heading {
+    color: rgba(0, 0, 255, 0.726);
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1%;
+}

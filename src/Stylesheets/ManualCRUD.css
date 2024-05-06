@@ -1,0 +1,25 @@
+.drop-down{
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.drop-down2{
+    height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 255, 0.479);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.form-labels{
+    color: rgba(0, 0, 255, 0.479);
+    text-align: left;
+}
+.validation-message{
+    color: tomato;
+}

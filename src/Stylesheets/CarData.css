@@ -1,0 +1,39 @@
+.Delete-btn {
+    background-color: tomato;
+    border-color: tomato;
+    color: antiquewhite;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Delete-btn:hover {
+    background-color: black;
+    border-color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}
+
+.Update-btn {
+    background-color: rgba(0, 128, 0, 0.685);
+    border-color: rgba(0, 128, 0, 0.685);
+    color: antiquewhite;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Update-btn:hover {
+    background-color: black;
+    border-color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 0px #000000;
+
+}

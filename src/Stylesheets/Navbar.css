@@ -1,0 +1,26 @@
+.nav-bar {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.479);
+    padding-top: 15px;
+
+
+}
+
+.set-links {
+    color: antiquewhite;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.set-links :hover {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightgray;
+
+}
